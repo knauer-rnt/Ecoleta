@@ -1,0 +1,95 @@
+#page-home {
+    height: 110vh;
+    background: url('../assets/home-background.svg') no-repeat;
+    background-position: 35vw bottom; /* posições x e y */
+}
+
+#page-home .content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto; /* top-bottom e left-right */
+    height: 100%;
+    display: flex; /* perde as propriedades padrão de block */
+    flex-direction: column; /* alinha de volta como se tivesse block, porém é flex */
+    /* terreno preparado com o flex acima para alterações futuras de flex dentro de .content */
+}
+
+#page-home header {
+    display: flex; /* faz elementos da box perderem o valor block em display */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+#page-home header a {
+    display: flex;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+#page-home header a span {
+    display: flex;
+    margin-right: 16px;
+    background-image: url('../assets/log-in.svg');
+    width: 20px;
+    height: 20px;
+}
+
+#page-home main {
+    max-width: 560px;
+    flex: 1; /* preenche automaticamente todo o espaço que tiver - trabalha com duas caixas (header e main nesse caso) */
+    display: flex; /* perde as propriedades padrão de block */
+    flex-direction: column; /* alinha de volta como se tivesse block, porém é flex */
+    justify-content: center;
+}
+
+#page-home main h1 {
+    font-size: 54px;
+}
+
+#page-home main p {
+    font-size: 24px;
+    line-height: 38px; /* espaçamento de linha num texto */
+    margin-top: 24px;
+}
+
+#page-home main a {
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: var(--primary-color);
+    transition: 400ms;
+    /* font-weight: bold; - já tem a caixa strong lá no html */
+}
+
+#page-home main a:hover {
+    background-color: #2fb86e;
+}
+
+#page-home main a span {
+    width: 72px;
+    height: 72px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-home main a span::after { /* pseudo-elemento */
+    content: "";
+    background-image: url('../assets/search.svg');
+    width: 20px;
+    height: 20px;
+}
+
+#page-home main a strong {
+    flex: 1; /* a 1ª caixa tem largura (span), essa segunda vai preencher o restante com valor 1 */
+    color: white;
+    text-align: center;
+}

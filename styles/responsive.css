@@ -1,0 +1,33 @@
+@media (max-width: 900px) { /* largura da tela de 0 até 900 */
+    #page-home {
+        background-position-x: 70vw; /* sumir com a imagem */
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a{
+        position: absolute;
+        bottom: 48px; /* fica a essa distancia contando por baixo */
+        left: 50%; /* começa na metade da tela */
+        transform: translateX(-50%); /* pega a exata metade do conteúdo ajustando ao eixo X */
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+}
+
+@media (min-width: 1700px) {
+    #page-home {
+        background-position-x: 42vw;
+    }
+}
+
+@media (max-height: 760px) {
+    #page-home {
+        background-position-y: 200px;
+    }
+}
