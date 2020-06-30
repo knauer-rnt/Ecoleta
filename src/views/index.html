@@ -1,58 +1,42 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Ecoleta</title>
+{% extends 'layout.html' %}
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/styles/main.css">
+{% set pageId = 'page-home' %} {# variável com o id da div no layout #}
+
+{% block styles %}
     <link rel="stylesheet" href="/styles/home.css">
     <link rel="stylesheet" href="/styles/modal.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
-</head>
-<body>
+{% endblock styles %}
 
-    <div id="page-home">
-        <div class="content">
-            
-            <header>
-                <img src="/assets/logo.svg" alt="logomarca">
-                <a href="/create-point"> <!-- Rota no Node.js -->
-                    <span></span> <!-- para o css -->
-                    Cadastre um ponto de coleta
-                </a>
-            </header>
+{% block content %}
+    <div class="content">
 
-            <main>
-                <h1>Seu marketplace de coleta de resíduos</h1>
-                <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
-                <a href="#"><span></span><strong>Pesquisar pontos de coleta</strong></a> <!-- para o css -->
-            </main>
-        
-        </div>
+        <header>
+            <img src="/assets/logo.svg" alt="logomarca">
+            <a href="/create-point">
+                <!-- Rota no Node.js -->
+                <span></span>
+                <!-- para o css -->
+                Cadastre um ponto de coleta
+            </a>
+        </header>
+
+        <main>
+            <h1>Seu marketplace de coleta de resíduos</h1>
+            <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
+            <a href="#">
+                <span></span>
+                <strong>Pesquisar pontos de coleta</strong>
+            </a>
+            <!-- para o css -->
+        </main>
+
     </div>
+{% endblock content %}
 
-    <div id="modal" class="hide">
-        <div class="div">
-            <div class="header">
-                <h1>Pontos de Coleta</h1>
-                <a href="#">Fechar</a>
-            </div>
-            <form action="/search-results"> <!-- Rota configurada agora no Node.js -->
-                <label for="search">Cidade</label>
-                <div class="search field">
-                    <input type="text" name="search" placeholder="Pesquise por Cidade">
-                    <button>
-                        <img src="/assets/search.svg" alt="Buscar">
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
+{% block modal %}
+    {% include 'partials/modal.html' %}
+{% endblock modal %}
 
+{% block scripts %}
     <script src="/scripts/home.js"></script>
-</body>
-</html>
+{% endblock scripts %}
