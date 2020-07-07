@@ -1,23 +1,65 @@
-@media (max-width: 900px) { /* largura da tela de 0 até 900 */
+@media (max-width: 479px) {
+    
+    /* #page-home */
+
     #page-home {
-        background-position-x: 70vw; /* sumir com a imagem */
+        height: 20vh;
+    }
+    
+    #page-home header {
+        display: block;
+    }
+    
+    #page-home header a {
+        justify-content: center;
+        font-weight: 400;
+        font-size: 14px;
     }
 
-    #page-home .content {
-        align-items: center;
-        text-align: center;
+    #page-home header a:nth-child(2) {
+        margin-top: 330px;
+        line-height: 20px;
     }
 
-    #page-home header a{
-        position: absolute;
-        bottom: 48px; /* fica a essa distancia contando por baixo */
-        left: 50%; /* começa na metade da tela */
-        transform: translateX(-50%); /* pega a exata metade do conteúdo ajustando ao eixo X */
+    #page-home header a span {
+        margin-right: 6px;
     }
 
     #page-home main {
+        max-width: 479px;
         align-items: center;
     }
+    
+    #page-home main h1 {
+        font-size: 24px;
+        margin-top: -370px;
+        text-align: center;
+    }
+    
+    #page-home main p {
+        font-size: 16px;
+        line-height: 20px; /* espaçamento de linha num texto */
+        text-align: center;
+    }
+
+    #page-home main a {
+        width: 65%;
+        max-width: 320px;
+        height: 50px;
+        justify-content: center;
+    }
+
+    #page-home main a span {
+        width: 50px;
+        height: 50px;
+    }
+
+    #page-home main a strong {
+        font-size: 14px;
+        margin: 5px 10px;
+    }
+
+    /* #page-search-results */
 
     #page-search-results .cards {
         grid-template-columns: 1fr;
@@ -27,6 +69,8 @@
         height: 250px;
     }
 
+    /* #page-create-point */
+
     #page-create-point .field-group {
         flex-direction: column;
     }
@@ -34,16 +78,144 @@
     #page-create-point .field-group .field + .field {
         margin-left: 0;
     }
+
+    #page-create-point form fieldset .items-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #page-create-point form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #page-create-point form button {
+        max-width: 200px;
+        padding: 10px;
+    }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 480px) and (max-width: 960px) { /* largura da tela entre 480 e 960 */
+    
+    /* #page-home */
+
     #page-home {
-        background-position-x: 42vw;
+        background-position-x: 80vw; /* sumir com a imagem */
+        height: 80vh;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header {
+        display: block;
+    }
+
+    #page-home header a{
+        justify-content: center;
+        font-weight: 400;
+        font-size: 22px;
+        /* position: absolute; */
+        /* bottom: 48px; */ /* fica a essa distancia contando por baixo */
+        /* left: 50%; */ /* começa na metade da tela */
+        /* transform: translateX(-50%); */ /* pega a exata metade do conteúdo ajustando ao eixo X */
+    }
+
+    #page-home header a:nth-child(2) {
+        margin-top: 620px;
+        line-height: 20px;
+    }
+
+    #page-home header a span {
+        margin-right: 6px;
+    }
+
+    #page-home main {
+        max-width: 959px;
+        align-items: center;
+    }
+
+    #page-home main h1 {
+        font-size: 48px;
+        margin-top: -650px;
+        text-align: center;
+    }
+    
+    #page-home main p {
+        font-size: 26px;
+        line-height: 30px; /* espaçamento de linha num texto */
+        text-align: center;
+        margin: 50px 35px;
+    }
+
+    #page-home main a {
+        margin-top: 80px;
+        width: 65%;
+        max-width: 400px;
+        height: 65px;
+        justify-content: center;
+    }
+
+    #page-home main a span {
+        width: 65px;
+        height: 65px;
+    }
+
+    #page-home main a strong {
+        font-size: 22px;
+        margin: 5px 10px;
+    }
+
+    /* page-search-results */
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 250px;
+    }
+
+    /* page-create-point */
+
+    #page-create-point form fieldset input {
+        width: 50vw;
+        
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    form fieldset .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #page-create-point form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1700px), (min-height: 1000px) { /* largura a partir de 1700 ou altura a partir de 1000 */
+    #page-home {
+        background-position: 42vw 40vh;
     }
 }
 
 @media (max-height: 760px) {
     #page-home {
         background-position-y: 200px;
+    }
+
+    #page-home header a:nth-child(2) {
+        margin-bottom: 20px;
     }
 }

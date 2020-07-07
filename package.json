@@ -1,21 +1,21 @@
 {
-  "name": "nextlevelweek-jun-2020",
-  "version": "1.0.0",
+  "name": "ecoleta",
+  "version": "5.1.0",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/knauer-rnt/NextLevelWeek-Jun-2020.git"
+    "url": "git+https://github.com/knauer-rnt/Ecoleta.git"
   },
   "keywords": [],
   "author": "Renato Knauer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/knauer-rnt/NextLevelWeek-Jun-2020/issues"
+    "url": "https://github.com/knauer-rnt/Ecoleta/issues"
   },
-  "homepage": "https://github.com/knauer-rnt/NextLevelWeek-Jun-2020#readme",
+  "homepage": "https://github.com/knauer-rnt/Ecoleta#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nunjucks": "^3.2.1",
