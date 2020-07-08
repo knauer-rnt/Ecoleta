@@ -5,11 +5,11 @@
 
 # Índice
 
-1. [Sobre](#-sobre)
+1. [Sobre](#sobre)
 2. [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 3. [Como baixar o Projeto](#-como-baixar-o-projeto)
-4. [Autor](#-autor)
-5. [Agradecimentos](#-agradecimentos)
+4. [Autor](#autor)
+5. [Agradecimentos](#agradecimentos)
 
 ---
 
