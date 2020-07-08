@@ -5,15 +5,15 @@
 
 # Índice
 
-1. [Sobre](#sobre)
+1. [Sobre](#-sobre)
 2. [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 3. [Como baixar o Projeto](#-como-baixar-o-projeto)
-4. [Autor](#autor)
-5. [Agradecimentos](#agradecimentos)
+4. [Autor](#-autor)
+5. [Agradecimentos](#-agradecimentos)
 
 ---
 
-## 📋️ Sobre
+## 📋️ Sobre <a name="sobre"></a>
 
 O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um Marketplace de Coleta de Resíduos. Seu propósito é conectar Pessoas e Empresas com o objetivo de contribuir com a preservação do meio ambiente.
 
@@ -43,7 +43,7 @@ O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um M
 
 ---
 
-## 💻️ Autor
+## 💻️ Autor <a name="autor"></a>
 
 * **Renato Knauer**
 
@@ -61,7 +61,7 @@ O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um M
 
 ---
 
-## 🏆️ Agradecimentos
+## 🏆️ Agradecimentos <a name="agradecimentos"></a>
 
 *  <a target="_blank" href="https://github.com/maykbrito">**Mayk Brito**</a>
 *  <a target="_blank" href="https://rocketseat.com.br/">**Rocketseat**</a>
