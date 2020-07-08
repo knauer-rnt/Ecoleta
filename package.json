@@ -1,6 +1,6 @@
 {
   "name": "ecoleta",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon src/server.js"
