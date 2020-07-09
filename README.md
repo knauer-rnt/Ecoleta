@@ -42,56 +42,59 @@ O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um M
 ### Certifique-se de possuir o **Node.js v12.18.2** e o **npm v6.14.4** ou mais recentes:
 
 // Para Sistemas GNU/Linux, instale o Gerenciador de Versões do Node.js ([nvm](https://github.com/nvm-sh/nvm))
-```bash
+
+```
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 <br />
+
 // Feche e abra novamente o Terminal. Instale agora o **Node.js v12.18.2**. Para outras versões específicas, modifique-a no comando abaixo
 
-```bash
+```
 nvm install 12.18.2
 ```
 <br />
+
 // Ou, para a última versão (**non-LTS**)
 
-```bash
+```
 nvm install node
 ```
 <br />
+
 // Com o Node.js instalado, o npm também vem junto. Verifique agora a versão dos dois
 
-```bash
+```
 echo 'Versão do Node.js: ' && node -v && echo 'Versão do npm: ' && npm -v
 ```
 <br />
+
 // Finalizadas as instalações, comece clonando o Projeto
 
-```bash
+```
 git clone https://github.com/knauer-rnt/Ecoleta.git
 ```
 <br />
+
 // Navegue até sua pasta principal
 
-```bash
+```
 cd Ecoleta
 ```
 <br />
 
 // Instale todas as dependências do Projeto (**Express**, **Nodemon**, **Nunjucks** e **SQLite**)
 
-```bash
+```
 npm install
 ```
 <br />
+
 // Inicie o servidor do Projeto e ele já estará pronto para ser usado
 
-```bash
+```
 npm start
 ```
-
-
-
-
 
 ---
 
