@@ -138,3 +138,5 @@ npm start
 *  <a href="https://rocketseat.com.br/">**Rocketseat**</a>
 
 Por todo o suporte que tive durante a realização deste Projeto durante a **Next Level Week** de Junho de 2020. Muito obrigado!
+
+<br />
