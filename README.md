@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: center;"> 
-    <img style="width: 300px" src="public/assets/logo.svg" alt="Ecoleta">
+    <img style="width: 300px" src="https://github.com/knauer-rnt/Ecoleta/blob/master/public/assets/logo.svg" alt="Ecoleta">
 </div>
 <br />
 
@@ -29,7 +29,7 @@ O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um M
   * [Node.js](https://nodejs.org/en/)
   * [SQLite](https://www.sqlite.org/index.html)
 
-* <span style="text-decoration: underline;">**Frameworks e Utilitários**</span>
+* <span style="text-decoration: underline;">**Frameworks & Utilitários**</span>
 
   * [Express](https://expressjs.com/) - Framework web para Node.js que facilita a criação de um servidor.
   * [Nodemon](https://nodemon.io/) - Ferramenta para atualizar automaticamente a Aplicação node ao salvar um documento.
@@ -39,7 +39,59 @@ O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um M
 
 ## 📖 Como baixar o Projeto
 
-// TODO
+### Certifique-se de possuir o **Node.js v12.18.2** e o **npm v6.14.4** ou mais recentes:
+
+// Para Sistemas GNU/Linux, instale o Gerenciador de Versões do Node.js ([nvm](https://github.com/nvm-sh/nvm))
+```bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+<br />
+// Feche e abra novamente o Terminal. Instale agora o **Node.js v12.18.2**. Para outras versões específicas, modifique-a no comando abaixo
+
+```bash
+nvm install 12.18.2
+```
+<br />
+// Ou, para a última versão (**non-LTS**)
+
+```bash
+nvm install node
+```
+<br />
+// Com o Node.js instalado, o npm também vem junto. Verifique agora a versão dos dois
+
+```bash
+echo 'Versão do Node.js: ' && node -v && echo 'Versão do npm: ' && npm -v
+```
+<br />
+// Finalizadas as instalações, comece clonando o Projeto
+
+```bash
+git clone https://github.com/knauer-rnt/Ecoleta.git
+```
+<br />
+// Navegue até sua pasta principal
+
+```bash
+cd Ecoleta
+```
+<br />
+
+// Instale todas as dependências do Projeto (**Express**, **Nodemon**, **Nunjucks** e **SQLite**)
+
+```bash
+npm install
+```
+<br />
+// Inicie o servidor do Projeto e ele já estará pronto para ser usado
+
+```bash
+npm start
+```
+
+
+
+
 
 ---
 
@@ -56,14 +108,14 @@ O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um M
 
 <p>🔗 
     <span style="text-decoration: underline;">LinkedIn</span> - 
-    <a target="_blank" href="https://www.linkedin.com/in/renatoknauer/">Renato Knauer</a>
+    <a href="https://www.linkedin.com/in/renatoknauer/">Renato Knauer</a>
 </p>
 
 ---
 
 ## 🏆️ Agradecimentos <a name="agradecimentos"></a>
 
-*  <a target="_blank" href="https://github.com/maykbrito">**Mayk Brito**</a>
-*  <a target="_blank" href="https://rocketseat.com.br/">**Rocketseat**</a>
+*  <a href="https://github.com/maykbrito">**Mayk Brito**</a>
+*  <a href="https://rocketseat.com.br/">**Rocketseat**</a>
 
 Por todo o suporte que tive durante a realização deste Projeto durante a **Next Level Week** de Junho de 2020. Muito obrigado!
