@@ -14,6 +14,7 @@
 <br />
 
 ---
+<br />
 
 ## 📋️ Sobre <a name="sobre"></a>
 
@@ -22,6 +23,7 @@ O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um M
 <br />
 
 ---
+<br />
 
 ## 🚀 Tecnologias utilizadas
 
@@ -42,6 +44,7 @@ O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um M
 <br />
 
 ---
+<br />
 
 ## 📖 Como baixar o Projeto
 
@@ -106,6 +109,7 @@ npm start
 <br />
 
 ---
+<br />
 
 ## 💻️ Autor <a name="autor"></a>
 
@@ -126,6 +130,7 @@ npm start
 <br />
 
 ---
+<br />
 
 ## 🏆️ Agradecimentos <a name="agradecimentos"></a>
 
