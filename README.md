@@ -1,4 +1,6 @@
-<img align="center" width="300px" src="https://github.com/knauer-rnt/Ecoleta/blob/master/public/assets/logo.svg" alt="Ecoleta">
+<div align="center">
+  <img width="300px" src="https://github.com/knauer-rnt/Ecoleta/blob/master/public/assets/logo.svg" alt="Ecoleta">
+</div>
 <br />
 
 # Índice
@@ -9,11 +11,15 @@
 4. [Autor](#autor)
 5. [Agradecimentos](#agradecimentos)
 
+<br />
+
 ---
 
 ## 📋️ Sobre <a name="sobre"></a>
 
 O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um Marketplace de Coleta de Resíduos. Seu propósito é conectar Pessoas e Empresas com o objetivo de contribuir com a preservação do meio ambiente.
+
+<br />
 
 ---
 
@@ -33,10 +39,11 @@ O <span style="text-decoration: underline;">:recycle: **Ecoleta**</span> é um M
   * [Nodemon](https://nodemon.io/) - Ferramenta para atualizar automaticamente a Aplicação node ao salvar um documento.
   * [Nunjucks](https://mozilla.github.io/nunjucks/) - Template Engine para JavaScript que permite o reaproveitamento de códigos HTML.
 
+<br />
+
 ---
 
 ## 📖 Como baixar o Projeto
-<br />
 
 ### Certifique-se de possuir o Node.js v12.18.2 e o npm v6.14.4 ou mais recentes:
 <br />
@@ -90,11 +97,12 @@ npm install
 ```
 <br />
 
-// Inicie o servidor do Projeto e ele já estará pronto para ser usado
+// Inicie o servidor do Projeto e ele já estará pronto para ser usado na **URL: _localhost:3000_**
 
 ```bash
 npm start
 ```
+
 <br />
 
 ---
@@ -114,6 +122,8 @@ npm start
     <span style="text-decoration: underline;">LinkedIn</span> - 
     <a href="https://www.linkedin.com/in/renatoknauer/">Renato Knauer</a>
 </p>
+
+<br />
 
 ---
 
